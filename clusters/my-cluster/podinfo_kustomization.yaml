@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./wazuh
+  path: ./envs/local-env
   prune: true
   sourceRef:
     kind: GitRepository
